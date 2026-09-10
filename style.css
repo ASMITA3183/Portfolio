@@ -164,6 +164,45 @@ header p {
   text-decoration: underline;
 }
 
+/* Introduction layout */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Profile photo */
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Introduction text */
+.intro-text {
+  text-align: left;
+}
+
+.intro-text h1 {
+  margin-top: 0;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+}
+
 /* Mobile responsive design */
 @media (max-width: 600px) {
   nav a {
