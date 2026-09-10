@@ -1,0 +1,186 @@
+/* Overall webpage */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Links inside navigation */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+/* When mouse is over a navigation link */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main introduction section */
+header {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Main heading */
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* Section headings */
+h2 {
+  font-size: 30px;
+}
+
+/* All sections */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+}
+
+/* Introduction paragraph */
+header p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+/* Project button */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #444;
+}
+
+/* Individual experience card */
+.experience-card {
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid #222;
+  background-color: #f8f8f8;
+}
+
+/* Job title */
+.experience-card h3 {
+  margin-top: 0;
+  font-size: 21px;
+}
+
+/* Job duration */
+.experience-card p:first-of-type {
+  color: #777;
+  font-size: 15px;
+}
+
+/* Skills container */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Individual skill badge */
+.skills span {
+  background-color: #222;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+/* Project card */
+.project-card {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+
+/* Project title */
+.project-card h3 {
+  margin-top: 0;
+}
+
+/* Project card hover effect */
+.project-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Coding profile links */
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Individual profile link */
+.profile-links a {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* Hover effect */
+.profile-links a:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+
+/* Contact section */
+#contact a {
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Contact link hover */
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsive design */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header {
+    padding: 60px 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  section {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+}
